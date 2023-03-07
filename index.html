@@ -11,12 +11,63 @@
     <div class="icono"> 
       <h1><span><i class="fa-solid fa-user-graduate"></i></span> CURRICULUM VITAE - PROYECTO FINAL</h1>
       <nav>
+        <p><a href="#nav-registrate">Registrate</a></p>
         <p><a href="#nav-personales">Datos Personales</a></p>
         <p><a href="#nav-expeciencia">Expeciencia y Formacion Academica y otros</a></p>
         <p><a href="#nav-documentacion">Documentacion Adicional</a></p>
       </nav>
     </div>
-    <main class="contenedor">
+
+    <main class="contenedor" id="nav-registrate"></main>
+
+      <form action="" class="miForm" method="">
+        <p class="miTitulo">REGISTRATE</p>
+                <div class="form-imput">
+                  <input type="text" id="miNombre">
+                  <label for="miNombre">Nombre</label>
+                  <p class="mensajeError"></p>
+                </div>
+                <div class="form-imput">
+                  <input type="text" id="miApellido">
+                  <label for="miApellido">Apellido</label>
+                  <p></p>
+                </div>
+                <div class="form-imput">
+                  <input type="email" id="miMail">
+                  <label for="miMail">Mail</label>
+                  <p></p>
+                </div>
+                <div class="form-imput">
+                  <input type="text" id="miCelular">
+                  <label for="miCelular">Celular</label>
+                  <p></p>
+                </div>
+                <div class="form-imput">
+                  <input type="password" id="miPassword">
+                  <label for="miPassword">Contraseña</label>
+                  <p></p>
+                </div>
+                <div class="form-imput">
+                  <input type="password" id="miRpassword">
+                  <label for="miRpassword">Repetir Contraseña</label>
+                  <p></p>
+                </div>
+                <div>
+                  <input type="checkbox" id="miTermycond">
+                  <label for="miTermycond">He leido y acepto los</label>
+                  <a href="#">Términos y Condiciones</a>
+                  <p></p>
+                </div>
+                <div class="form-boton">
+                  <input type="submit" value="Enviar">
+                </div>
+                <p class="mensajeCorrecto"></p>
+      </form>
+
+    <script src="js/registrarse.js"></script>
+    <a href="#">VOLVER AL INICIO</a>
+
+      
       <section class="datos">
         <div class="mifoto" id="nav-personales">
           <img src="imagen/foto.jpg" />
@@ -50,6 +101,8 @@
           <script src="js/function.js"></script>
 
         </div>
+
+        <a href="#">VOLVER AL INICIO</a>
 
       </section>
 
@@ -86,13 +139,15 @@
           <p>Curso de Dirección de Arte - Domestika, 2016</p>
           <p>Curso de Diseño e Ilustración Digital - Domestika, 2016</p>
         </div>
+        <a href="#">VOLVER AL INICIO</a>
         
       </section>
       <section class="documentacion" id="nav-documentacion">
-        <h2>Documentacion Adicional</h3>
+        <h2>Documentacion Adicional</h2>
         <img src="imagen/diploma.png">
         <img src="imagen/certificado.png">
       </section>
+      <a href="#">VOLVER AL INICIO</a>
     </main>
   </body>
 </html>
